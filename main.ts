@@ -44,5 +44,7 @@ function LEDON () {
 }
 basic.forever(function () {
     LEDON()
+    basic.pause(1000)
     LEDOFF()
+    basic.pause(1000)
 })
